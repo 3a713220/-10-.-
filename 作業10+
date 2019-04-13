@@ -1,0 +1,23 @@
+＃包括 < stdio.h中>
+＃包括< stdlib.h中>
+int  main（）{
+	int p;  
+	int o;  
+	printf（“ żé¤J¤@ÓžăźĆĄG ”）;
+	scanf（“％d ”，＆p）;
+	printf（“％d = ”，p）;
+	
+	for（o = 2 ; o <= p; o ++）{
+		while（p！= o）{
+			if（p％o == 0）{
+				printf（“％d * ”，o）;
+				p = p / o;
+			}
+			其他
+				打破 ;
+		}
+	}
+	printf（“％d \ n ”，p）;
+	系統（“暫停”）;
+	返回 0 ;
+}
